@@ -1,0 +1,31 @@
+body{
+  display: flex;
+  justify-content: center;
+
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th {
+  background-color: #8d5083;
+  text-align: left;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+tr:hover {
+  background-color: #ec7f7f;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+      overflow-x: auto;
+  }
+}
